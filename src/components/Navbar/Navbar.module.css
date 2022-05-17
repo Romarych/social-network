@@ -1,0 +1,27 @@
+.nav {
+  grid-area: n;
+  background-color:  #2F4454;
+  padding: 20px 10px;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.item:hover {
+  font-weight: bold;
+  transition: linear .2s;
+  transform: translateX(5px);
+  display: inline-block;
+}
+
+.active {
+  color: #ffa500;
+  font-weight: bold;
+  cursor: context-menu;
+}
+
+.friends {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+  

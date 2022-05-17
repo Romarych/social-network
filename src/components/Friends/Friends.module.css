@@ -1,0 +1,11 @@
+.friend {
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.friend:hover {
+  font-weight: bold;
+  transition: linear .1s;
+}
+  
