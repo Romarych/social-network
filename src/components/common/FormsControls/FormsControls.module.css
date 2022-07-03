@@ -13,4 +13,26 @@
     color: #ff0000;
     display: inline-block;
     margin: 5px 0;
+    border-radius: 5px;
+}
+
+.input {
+    margin: 10px 0;
+    position: relative;
+}
+
+.rememberMe::after {
+    content: "Remember me";
+    position: absolute;
+    margin-left: 20px;
+    font-size: 15px;
+    bottom: 2px;
+}
+
+.lookingForAJob::after {
+    content: "yes";
+    position: absolute;
+    margin-left: 20px;
+    font-size: 15px;
+    bottom: 2px;
 }
